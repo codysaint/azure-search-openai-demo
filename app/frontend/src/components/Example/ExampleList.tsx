@@ -3,9 +3,9 @@ import { Example } from "./Example";
 import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
-    "What is included in my Northwind Health Plus plan that is not in standard?",
-    "What happens in a performance review?",
-    "What does a Product Manager do?"
+    'Do you have an information related to popular drug study specifically for condition type "Alcoholism"?',
+    'Could you please provide me [Inclusion] and [Exclusion] criteria for "Phase 4" trial of drug "Revia"?',
+    'How many participants were enrolled in the clinical trial, and what was the study type?'
 ];
 
 const GPT4V_EXAMPLES: string[] = [
