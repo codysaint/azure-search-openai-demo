@@ -4,8 +4,8 @@ import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
     'Do you have an information related to popular drug study specifically for condition type "Alcoholism"?',
-    'Could you please provide me [Inclusion] and [Exclusion] criteria for "Phase 4" trial of drug "Revia"?',
-    'How many participants were enrolled in the clinical trial, and what was the study type?'
+    'Could you please provide me Inclusion and Exclusion criteria for "Phase 4" trial of drug "Revia"?',
+    "What are the unique intervention names for which clinical trials happened?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [

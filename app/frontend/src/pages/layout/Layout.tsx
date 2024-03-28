@@ -14,7 +14,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>GPT + Enterprise data | Sample</h3>
+                        <h3 className={styles.headerTitle}>ClinicalGPT</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
@@ -28,8 +28,8 @@ const Layout = () => {
                                     Ask a question
                                 </NavLink>
                             </li>
-                            <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
+                            {/* <li className={styles.headerNavLeftMargin}>
+                                <a href="https://github.com/codysaint/azure-search-openai-demo" target={"_blank"} title="Github repository link">
                                     <img
                                         src={github}
                                         alt="Github logo"
@@ -39,10 +39,10 @@ const Layout = () => {
                                         className={styles.githubLogo}
                                     />
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Azure OpenAI + AI Search</h4>
+                    <h6 className={styles.headerRightText}>Unleashing the power of GenAI (Azure OpenAI)</h6>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
