@@ -23,8 +23,8 @@ class ChatApproach(Approach, ABC):
     query_prompt_few_shots = [
         {"role": USER, "content": "How did crypto do last year?"},
         {"role": ASSISTANT, "content": "Summarize Cryptocurrency Market Dynamics from last year"},
-        {"role": USER, "content": "What are my health plans?"},
-        {"role": ASSISTANT, "content": "Show available health plans"},
+        {"role": USER, "content": "How many drugs were part of clinical trials?"},
+        {"role": ASSISTANT, "content": "Show all the intervention names"},
     ]
     NO_RESPONSE = "0"
 
